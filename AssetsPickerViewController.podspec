@@ -40,7 +40,7 @@ Fully customizable UI.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'PureLayout'
-  s.dependency 'Dimmer', '~> 2.0'
+  s.dependency 'Dimmer', :git => 'https://github.com/karlisl/Dimmer.git'
   s.dependency 'FadeView', '~> 2.0'
   s.dependency 'TinyLog', '~> 2.0'
   s.dependency 'SwiftARGB', '~> 2.0'
